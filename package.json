@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "test": "jest --watchAll",
+    "dbstart": "json-server --watch db.json"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "json-server": "^0.17.3"
+  },
+  "name": "js-practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
