@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      html {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      div {
+        display: flex;
+        justify-content: center;
+      }
+      ul {
+        list-style: none;
+      }
+      li {
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      .modal-active {
+        position: absolute;
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        width: 500px;
+        height: 200px;
+        background: rgba(0, 0, 0, 0.8);
+      }
+      button {
+        padding: 5px;
+        width: 100px;
+        height: 30px;
+      }
+    </style>
+    <script defer src="./object.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <ul class="item-ul">
+        <li class="item-li">
+          <span>아이템 1</span>
+          <button class="delete-btn">삭제</button>
+        </li>
+        <li class="item-li">
+          <span>아이템 2</span>
+          <button class="delete-btn">삭제</button>
+        </li>
+        <li class="item-li">
+          <span>아이템 3</span>
+          <button class="delete-btn">삭제</button>
+        </li>
+        <li class="item-li">
+          <span>아이템 4</span>
+          <button class="delete-btn">삭제</button>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
