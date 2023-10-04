@@ -1,4 +1,4 @@
-const sum = require("../jestTest");
+import sum from "../../js-practice/jestTest";
 
 describe("첫 테스트", () => {
   it("a와 b 더하기", () => {

@@ -1,4 +1,4 @@
-const { deepClone } = require("../deepclone");
+import deepClone from "../../js-practice/deepclone";
 
 test("deeply copies objects", () => {
   const obj = {
